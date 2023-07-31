@@ -1,5 +1,5 @@
 from telebot import types
-from  Constants import VALUES
+from Constants import VALUES
 
 start_markup = types.ReplyKeyboardMarkup(one_time_keyboard = True)
 start_markup_btn = types.KeyboardButton('/start')
